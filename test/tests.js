@@ -39,7 +39,7 @@ describe('validatePIN', function () {
 	});
 });
 
-xdescribe('SumTwoSmallestNumbers', function () {
+describe('SumTwoSmallestNumbers', function () {
 	const sumTwoSmallestNumbers = require('../katas/SumTwoSmallestNumbers');
 	it('should work for basic tests', function () {
 		assert.strictEqual(sumTwoSmallestNumbers([5, 8, 12, 19, 22]), 13, 'Sum should be 13');
@@ -50,7 +50,7 @@ xdescribe('SumTwoSmallestNumbers', function () {
 	});
 });
 
-xdescribe('ReturnNegative', function () {
+describe('ReturnNegative', function () {
 	const makeNegative = require('../katas/ReturnNegative.js');
 
 	it('Normal Value', () => {

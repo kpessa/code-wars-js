@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch test/*.js -g 'validatePIN'"
+    "test": "mocha --watch test/*.js -g getMiddle"
   },
   "keywords": [],
   "author": "",
