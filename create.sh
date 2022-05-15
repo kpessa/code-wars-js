@@ -5,14 +5,14 @@ text="function $2() {
 
 }
 
-module.exports = $2;"
+module.exports.$2 = $2;"
 
 echo "$text" > ./katas/$1.js
 
 test="const assert = require('assert');
 
 describe('$2', function () {
-	const $2 = require('../katas/$1');
+	const $2 = require('../katas/$1').$2;
 	it('Basic tests', function () {
 		assert.equal(1,1);
 	});
@@ -26,7 +26,7 @@ package='{
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch test/*.js -g '$2'"
+    "test": "mocha --watch 'test/$1.test.js'"
   },
   "keywords": [],
   "author": "",
