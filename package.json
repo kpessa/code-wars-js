@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch test/*.js -g getMiddle"
+    "test": "mocha --watch ./test/BreakThePieces.test.js"
   },
   "keywords": [],
   "author": "",
