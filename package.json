@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch test/MutualRecursion.test.js"
+    "test": "mocha --watch test/CategorizeNewMember.test.js"
   },
   "keywords": [],
   "author": "",
