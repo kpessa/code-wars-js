@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch test/CalculatingWithFunctions.test.js"
+    "test": "mocha --watch test/GradingStudents.test.js"
   },
   "keywords": [],
   "author": "",
