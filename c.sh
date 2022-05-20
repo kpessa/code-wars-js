@@ -13,8 +13,22 @@ test="const assert = require('assert');
 
 describe('$2', function () {
 	const $2 = require('../katas/$1').$2;
-	it('Basic tests', function () {
-		assert.equal(1,1);
+	it('First test', function () {
+		let args = ...
+    let x = $2(...args);
+    assert.equal(x,true);
+	});
+
+  it('Second test', function () {
+		let args = ...
+    let x = $2(...args);
+    assert.equal(x,true);
+	});
+
+  it('Third test', function () {
+		let args = ...
+    let x = $2(...args);
+    assert.equal(x,true);
 	});
 });"
 
