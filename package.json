@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch test/SortedSum.test.js"
+    "test": "mocha --watch test/FriendOrFoe.test.js"
   },
   "keywords": [],
   "author": "",
