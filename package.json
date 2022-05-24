@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./SumOfNumbers3.test.js"
+    "test": "mocha --watch ./DigitalRoot.test.js"
   },
   "keywords": [],
   "author": "",

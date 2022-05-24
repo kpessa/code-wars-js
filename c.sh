@@ -14,15 +14,15 @@ test="const assert = require('assert');
 describe('$2', function () {
 	const $2 = require('./$1').$2;
   let i = 0;
-	it(`Test #${i++}`, function () {
+	it(\`Test #\${i++}\`, function () {
     assert.equal($2(),true);
 	});
 
-  it(`Test #${i++}`, function () {
+  it(\`Test #\${i++}\`, function () {
     assert.equal($2(),true);
 	});
 
-  it(`Test #${i++}`, function () {
+  it(\`Test #\${i++}\`, function () {
 		assert.equal($2(),true);
 	});
 });"
