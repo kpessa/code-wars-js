@@ -13,15 +13,16 @@ test="const assert = require('assert');
 
 describe('$2', function () {
 	const $2 = require('./$1').$2;
-	it('First test', function () {
+  let i = 0;
+	it(`Test #${i++}`, function () {
     assert.equal($2(),true);
 	});
 
-  it('Second test', function () {
+  it(`Test #${i++}`, function () {
     assert.equal($2(),true);
 	});
 
-  it('Third test', function () {
+  it(`Test #${i++}`, function () {
 		assert.equal($2(),true);
 	});
 });"
