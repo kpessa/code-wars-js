@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./MigratoryBirds.test.js"
+    "test": "mocha --watch ./DayOfProgrammer.test.js"
   },
   "keywords": [],
   "author": "",
