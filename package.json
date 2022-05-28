@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./BreakingRecords.test.js"
+    "test": "mocha --watch ./DivisibleSumPairs.test.js"
   },
   "keywords": [],
   "author": "",
