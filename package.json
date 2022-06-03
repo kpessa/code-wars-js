@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./LongestPalindromicSubstring.test.js"
+    "test": "mocha --watch ./RockPaperScissors.test.js"
   },
   "keywords": [],
   "author": "",
