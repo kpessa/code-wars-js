@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./RockPaperScissors.test.js"
+    "test": "mocha --watch ./Snail.test.js"
   },
   "keywords": [],
   "author": "",
