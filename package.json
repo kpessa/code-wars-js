@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./DifferenceOperations.test.js"
+    "test": "mocha --watch ./MinimumRecolors.test.js"
   },
   "keywords": [],
   "author": "",
