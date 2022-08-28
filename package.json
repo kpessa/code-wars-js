@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch ./MinimumRecolors.test.js"
+    "test": "mocha --watch ./RemoveStars.test.js"
   },
   "keywords": [],
   "author": "",
